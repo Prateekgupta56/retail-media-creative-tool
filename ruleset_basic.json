@@ -1,0 +1,38 @@
+{
+  "id": "basic_retailer_brand_rules_v1",
+  "description": "Minimal retailer + brand rules for demo",
+  "rules": [
+    {
+      "id": "logo_min_width_pct",
+      "type": "geometry",
+      "selector": "logo",
+      "constraint": {
+        "min_pct_of_canvas_width": 0.08
+      },
+      "severity": "error",
+      "message": "Logo must be at least 8% of canvas width."
+    },
+    {
+      "id": "logo_clearance_px",
+      "type": "geometry",
+      "selector": "logo",
+      "constraint": {
+        "min_margin_px": 20
+      },
+      "severity": "error",
+      "message": "Logo must maintain 20px clear space from any edge or other branded element."
+    },
+    {
+      "id": "mandatory_disclaimer",
+      "type": "text_presence",
+      "selector": "text",
+      "constraint": {
+        "must_contain": [
+          "Available in all major retailers"
+        ]
+      },
+      "severity": "warning",
+      "message": "Mandatory retailer availability phrase should be present for this product type."
+    }
+  ]
+}

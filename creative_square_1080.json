@@ -1,0 +1,107 @@
+{
+  "id": "creative_square_1080",
+  "width": 1080,
+  "height": 1080,
+  "layers": [
+    {
+      "id": "bg",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "background"
+      },
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1080,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "product",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "packshot"
+      },
+      "mask": null,
+      "transform": {
+        "x": 380,
+        "y": 150,
+        "width": 320,
+        "height": 800,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "award_badge",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "badge"
+      },
+      "transform": {
+        "x": 820,
+        "y": 720,
+        "width": 180,
+        "height": 180,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "logo",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "logo_placeholder"
+      },
+      "transform": {
+        "x": 30,
+        "y": 30,
+        "width": 120,
+        "height": 120,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "text": "NEW LOOK\\nSAME AWARD WINNING TASTE",
+      "style": {
+        "fontFamily": "Inter, Helvetica, Arial",
+        "fontSize": 40,
+        "fontWeight": 700,
+        "lineHeight": 1.05
+      },
+      "fill": "#0A2B3A",
+      "transform": {
+        "x": 60,
+        "y": 840,
+        "width": 960,
+        "height": 180
+      }
+    },
+    {
+      "id": "subtext",
+      "type": "text",
+      "text": "Available in all major retailers",
+      "style": {
+        "fontFamily": "Inter, Arial",
+        "fontSize": 20,
+        "fontWeight": 400
+      },
+      "fill": "#08303A",
+      "transform": {
+        "x": 60,
+        "y": 980,
+        "width": 960,
+        "height": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "creative_landscape_1200x628",
+  "width": 1200,
+  "height": 628,
+  "layers": [
+    {
+      "id": "bg",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "background"
+      },
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 628,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "product",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "packshot"
+      },
+      "transform": {
+        "x": 760,
+        "y": 60,
+        "width": 300,
+        "height": 508,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "logo",
+      "type": "image",
+      "asset": {
+        "url": "/mnt/data/retail-creative-tool/assets/example_packshot.png",
+        "role": "logo_placeholder"
+      },
+      "transform": {
+        "x": 36,
+        "y": 36,
+        "width": 96,
+        "height": 96,
+        "rotation": 0,
+        "scale": 1
+      }
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "text": "NEW LOOK \u2014 SAME AWARD WINNING TASTE",
+      "style": {
+        "fontFamily": "Inter",
+        "fontSize": 36,
+        "fontWeight": 800
+      },
+      "fill": "#072B34",
+      "transform": {
+        "x": 40,
+        "y": 180,
+        "width": 640,
+        "height": 160
+      }
+    },
+    {
+      "id": "subtext",
+      "type": "text",
+      "text": "Available in all major retailers",
+      "style": {
+        "fontFamily": "Inter",
+        "fontSize": 18
+      },
+      "fill": "#072B34",
+      "transform": {
+        "x": 40,
+        "y": 260,
+        "width": 640,
+        "height": 80
+      }
+    },
+    {
+      "id": "cta",
+      "type": "shape",
+      "shapeType": "roundedRect",
+      "props": {
+        "x": 40,
+        "y": 340,
+        "width": 220,
+        "height": 60,
+        "cornerRadius": 8
+      },
+      "style": {
+        "fill": "#F2C94C",
+        "stroke": "#000000",
+        "strokeWidth": 0
+      },
+      "text": {
+        "value": "Learn more",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fill": "#052936",
+        "x": 100,
+        "y": 370
+      }
+    }
+  ]
+}

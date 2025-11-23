@@ -1,0 +1,16 @@
+{
+  "name": "retail-creative-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "konva": "^8.4.3",
+    "react-konva": "^18.0.4",
+    "axios": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite"
+  }
+}

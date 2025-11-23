@@ -1,0 +1,22 @@
+{
+  "canvas_id": "creative_square_1080",
+  "validation": {
+    "passed": false,
+    "violations": [
+      {
+        "rule_id": "contrast_text",
+        "severity": "error",
+        "detail": "Headline color #0A2B3A on background average color #BFDCE3 => contrast ratio 3.7 (required 4.5)",
+        "status": "fail",
+        "suggestion": "Change headline color to #042231 or apply a semi-opaque light overlay behind text to reach 4.6 contrast ratio."
+      }
+    ],
+    "auto_fixes": [
+      {
+        "applies_to": "headline",
+        "fix": "set fill to #042231 (auto), recompute contrast",
+        "estimated_change": "contrast 4.6:1"
+      }
+    ]
+  }
+}
